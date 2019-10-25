@@ -1,0 +1,16 @@
+@import '../../variables';
+
+.Search {
+    position: relative;
+
+    .fas {
+        position: absolute;
+        right: 10px;
+        top: calc(50% - 16px / 2);
+        color: $light-grey;
+
+        &.Active {
+            color: $blue;
+        }
+    }
+}
